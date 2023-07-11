@@ -2,37 +2,68 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is point estimation?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "A method to estimate population parameters using a range of values.",
+        "b": "A method to estimate population parameters using a single value."
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "This statement is incorrect. Point estimation involves estimating population parameters using a single value, not a range of values.",
+        "b": "Point estimation is a method to estimate population parameters using a single value."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is interval estimation?",
+      "answers": {
+        "a": "A method to estimate population parameters using a range of values.",
+        "b": "A method to estimate population parameters using a single value."
+      },
+      "explanations": {
+        "a": "Interval estimation involves estimating population parameters using a range of values, not a single value.",
+        "b": "This statement is incorrect. Interval estimation is a method to estimate population parameters using a range of values."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "What is a confidence interval?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "A range of values within which the true population parameter is likely to fall.",
+        "b": "A single value that represents the true population parameter."
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "A confidence interval is a range of values within which the true population parameter is likely to fall.",
+        "b": "This statement is incorrect. A confidence interval is not a single value but rather a range of values."
       },
-      "correctAnswer": "c",
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the margin of error in a confidence interval?",
+      "answers": {
+        "a": "The range of values within which the true population parameter is likely to fall.",
+        "b": "The difference between the sample statistic and the true population parameter."
+      },
+      "explanations": {
+        "a": "This statement is incorrect. The margin of error is not the range of values within which the true population parameter is likely to fall.",
+        "b": "The margin of error is the difference between the sample statistic and the true population parameter. It quantifies the uncertainty in the estimation."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the sample size needed to decrease the width of a confidence interval?",
+      "answers": {
+        "a": "Increase the sample size.",
+        "b": "Decrease the sample size."
+      },
+      "explanations": {
+        "a": "Increasing the sample size leads to a decrease in the width of the confidence interval, resulting in a more precise estimation.",
+        "b": "This statement is incorrect. Decreasing the sample size would generally result in a wider confidence interval and less precise estimation."
+      },
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]
